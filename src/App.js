@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div
+      style={{
+        textAlign: "center",
+        marginTop: "100px",
+        fontFamily: "Arial"
+      }}
+    >
+      <h1 style={{ color: "#2c3e50" }}>
+        My React Website 🚀
+      </h1>
+
+      <p style={{ fontSize: "20px", color: "#555" }}>
+        Welcome to my simple React application.
+      </p>
+
+      <div style={{ marginTop: "30px" }}>
+        <button
+          style={{
+            padding: "12px 25px",
+            fontSize: "18px",
+            backgroundColor: "#007bff",
+            color: "#fff",
+            border: "none",
+            borderRadius: "8px",
+            cursor: "pointer",
+            marginRight: "10px"
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          Login
+        </button>
+
+        <button
+          style={{
+            padding: "12px 25px",
+            fontSize: "18px",
+            backgroundColor: "green",
+            color: "#fff",
+            border: "none",
+            borderRadius: "8px",
+            cursor: "pointer"
+          }}
+        >
+          Register
+        </button>
+      </div>
     </div>
   );
 }
